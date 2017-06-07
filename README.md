@@ -1,3 +1,3 @@
 # PopulationNone-Loot-Filter
-A Loot filter.
-You may edit to you liking. 
+This Lootfilter is to filter mostly currency.
+This loot filter is now supported for 2.6
