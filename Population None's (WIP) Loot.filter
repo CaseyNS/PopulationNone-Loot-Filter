@@ -2,8 +2,6 @@
 
 # Section: Chaos Orb
 
-
-
 Show
     Corrupted True
     SetTextColor 255 255 255
@@ -104,13 +102,6 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 40
 
-Show
-    Class "Essence"
-    BaseType "Essence"
-    SetTextColor 255 255 255
-    SetBackgroundColor 30 144 255
-    SetBorderColor 255 255 255
-
 # Section: Flasks, Rings & Amulets
 
 Show
@@ -197,38 +188,13 @@ Hide
     SetBorderColor 0 0 0
     SetFontSize 33
 
-# Section: Item Rarity
+# Unique's
 
-# Unique Item
 Show
     Rarity = Unique
-    SetTextColor 180 96 0
-    SetBackgroundColor 0 0 0 200
-    SetBorderColor 180 96 0
-    SetFontSize 39
-    PlayAlertSound 10 80
-
-# Rare Item
-Show
-    Rarity = Rare
-    SetTextColor 255 255 119
-    SetBackgroundColor 0 0 0 200
-    SetBorderColor 0 0 0
-    SetFontSize 37
-
-# Magic Item
-Show
-    Rarity = Magic
-    SetTextColor 136 136 255
-    SetBackgroundColor 0 0 0 200
+    SetTextColor 0 0 0
+    SetBackgroundColor 180 96 0
     SetBorderColor 0 0 0
     SetFontSize 35
-
-# Normal Item
-Show
-    Rarity = Normal
-    SetTextColor 200 200 200
-    SetBackgroundColor 0 0 0 200
-    SetBorderColor 0 0 0
-    SetFontSize 33
+    PlayAlertSound 1 70
 
