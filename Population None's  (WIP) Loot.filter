@@ -48,14 +48,14 @@ Show
 Show
     ShapedMap True
     SetTextColor 74 0 160 200
-    SetBackgroundColor 255 255 255
+    SetBackgroundColor 136 136 255
     SetBorderColor 74 0 160 200
     SetFontSize 32
 
 Show
     ElderMap True
     SetTextColor 74 0 160 200
-    SetBackgroundColor 255 255 255
+    SetBackgroundColor 184 218 242
     SetBorderColor 74 0 160 200
     SetFontSize 32
 
@@ -124,6 +124,7 @@ Show
     SetBorderColor 170 158 130
     SetFontSize 43
     PlayAlertSound 3 79
+    MinimapIcon 2 Yellow Star
 
 # All Currency
 Show
@@ -213,7 +214,7 @@ Hide
     SetBorderColor 0 0 0
     SetFontSize 33
 
-# Unique's
+# Section: Unique's
 
 Show
     Rarity = Unique
