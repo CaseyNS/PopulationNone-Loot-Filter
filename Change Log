@@ -1,4 +1,8 @@
 Version 3.4.3
+
+New:
++ Added support for 6 sockets for vendoring
+
 Fixes:
 What ever gets fixed =)
 
