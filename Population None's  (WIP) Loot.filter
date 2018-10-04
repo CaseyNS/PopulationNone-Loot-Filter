@@ -96,13 +96,20 @@ Show
     SetFontSize 32
     PlayAlertSound 1 79
 
-# Section: Currency Type Items
+# Section: Vendor Currency Recipes
 
 Show
     LinkedSockets = 3
     SocketGroup "RGB"
     SetTextColor 255 255 255
     SetBackgroundColor 50 230 100
+    SetBorderColor 255 255 255
+    SetFontSize 32
+
+Show
+    Sockets = 6
+    SetTextColor 255 255 255
+    SetBackgroundColor 27 162 155
     SetBorderColor 255 255 255
     SetFontSize 32
 
