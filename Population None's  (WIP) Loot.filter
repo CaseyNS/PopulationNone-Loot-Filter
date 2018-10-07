@@ -7,32 +7,65 @@ Show
     SetTextColor 255 255 255
     SetBackgroundColor 180 96 0
     SetBorderColor 255 255 255
-    SetFontSize 45
+    SetFontSize 38
     PlayAlertSound 1 100
     MinimapIcon 1 Brown Star
+
+Show
+    BaseType "Fishing Rod"
+    SetTextColor 255 40 0 220
+    SetBackgroundColor 255 255 255 255
+    SetBorderColor 255 40 0 220
+    SetFontSize 45
+    PlayAlertSound 16 100
 
 # Section: Maps
 
 Show
-    Class "Maps" "Map Fragments"
-    SetTextColor 74 0 160 200
+    Class "Maps"
+    SetTextColor 27 162 155
     SetBackgroundColor 255 255 255
-    SetBorderColor 74 0 160 200
+    SetBorderColor 27 162 155
     SetFontSize 32
 
 Show
-    ElderMap True
-    SetTextColor 74 0 160 200
-    SetBackgroundColor 184 218 242
-    SetBorderColor 74 0 160 200
+    Class "Map Fragments"
+    SetTextColor 255 255 255
+    SetBackgroundColor 27 162 155
+    SetBorderColor 255 255 255
     SetFontSize 32
+
+# Section: Elder Items & Maps
+
+Show
+    ElderMap True
+    SetTextColor 0 100 150 200
+    SetBackgroundColor 200 200 200
+    SetBorderColor 0 100 150 200
+    SetFontSize 34
+
+Show
+    ElderItem True
+    SetTextColor 200 200 200
+    SetBackgroundColor 0 100 150 200
+    SetBorderColor 200 200 200
+    SetFontSize 34
+
+# Section: Shaper Items & Maps
 
 Show
     ShapedMap True
     SetTextColor 74 0 160 200
-    SetBackgroundColor 136 136 255
+    SetBackgroundColor 200 200 200
     SetBorderColor 74 0 160 200
-    SetFontSize 32
+    SetFontSize 34
+
+Show
+    ShaperItem True
+    SetTextColor 200 200 200
+    SetBackgroundColor 74 0 160 200
+    SetBorderColor 200 200 200
+    SetFontSize 34
 
 # Section: Cartographer's Sextant
 
@@ -185,64 +218,16 @@ Show
     SetBackgroundColor 210 0 0
     SetBorderColor 255 255 255
 
-# Section: Misc
+# Section: Gems
 
 Show
-    BaseType "Fishing Rod"
-    SetTextColor 255 165 0 255
-    SetBackgroundColor 255 255 255 255
-    SetBorderColor 255 165 0 255
-    SetFontSize 45
-    PlayAlertSound 16 100
-
-Show
-    BaseType "Breachstone" "Reliquary Key"
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 208 32 144
-    SetBorderColor 0 0 0 255
-    PlayAlertSound 5 79
-
-Show
-    Class "Leaguestones"
-    SetTextColor 100 65 165
+    Class "Gems"
+    SetTextColor 27 162 155
     SetBackgroundColor 0 0 0 200
-    SetBorderColor 100 65 165
-
-Show
-    Class "Quest Items"
-    SetTextColor 74 230 58
-    SetBackgroundColor 0 0 0 200
-    SetBorderColor 74 230 58
+    SetBorderColor 27 162 155
     SetFontSize 33
 
-Show
-    Class "Labyrinth Trinket" "Labyrinth Item"
-    SetTextColor 0 0 0
-    SetBackgroundColor 255 255 0
-    SetBorderColor 0 0 0
-    SetFontSize 34
-    PlayAlertSound 7 79
-
-Show
-    ElderItem True
-    SetTextColor 0 0 0
-    SetBackgroundColor 0 100 150 200
-    SetBorderColor 0 0 0
-    SetFontSize 34
-
-Show
-    ShaperItem True
-    SetTextColor 136 136 255
-    SetBackgroundColor 74 0 160 200
-    SetBorderColor 136 136 255
-    SetFontSize 34
-
-Show
-    Class "Jewel"
-    SetTextColor 0 0 0
-    SetBackgroundColor 128 0 128
-    SetBorderColor 0 0 0
-    SetFontSize 32
+# Section: Divination Card's
 
 Show
     Class "Divination Card"
@@ -252,7 +237,14 @@ Show
     SetFontSize 32
     PlayAlertSound 1 79
 
-# Section: Flasks, Rings & Amulets
+# Section: Flasks, Rings, Amulets & Jewels
+
+Show
+    Class "Jewel"
+    SetTextColor 0 0 0
+    SetBackgroundColor 128 0 128
+    SetBorderColor 0 0 0
+    SetFontSize 32
 
 Show
     BaseType "Opal Ring" "Pearl Amulet" "Marble Amulet" "Crystal Belt"
@@ -273,14 +265,39 @@ Show
     SetBorderColor 255 255 255 255
     SetFontSize 33
 
-# Section: Gems
+# Section: Quest Item's
 
 Show
-    Class "Gems"
-    SetTextColor 27 162 155
+    Class "Quest Items"
+    SetTextColor 74 230 58
     SetBackgroundColor 0 0 0 200
-    SetBorderColor 27 162 155
+    SetBorderColor 74 230 58
     SetFontSize 33
+
+# Section: Labyrinth Item's
+
+Show
+    Class "Labyrinth Trinket" "Labyrinth Item"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 255 255 119
+    SetBorderColor 0 0 0 255
+    SetFontSize 34
+    PlayAlertSound 7 79
+
+# Section: Misc
+
+Show
+    Class "Leaguestones"
+    SetTextColor 100 65 165
+    SetBackgroundColor 0 0 0 200
+    SetBorderColor 100 65 165
+
+Show
+    BaseType "Breachstone" "Reliquary Key"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 208 32 144
+    SetBorderColor 0 0 0 255
+    PlayAlertSound 5 79
 
 # Section: Leveling Support
 
